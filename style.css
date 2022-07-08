@@ -1,0 +1,118 @@
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .clr1 {
+    color: hsl(225, 100%, 94%);
+  }
+
+  .clr2 {
+    color: hsl(245, 45%, 52%);
+  }
+
+  .clr3 {
+    color: hsl(225, 100%, 98%);
+  }
+
+  .clr4 {
+    color: hsl(224, 23%, 55%);
+  }
+
+  .clr5 {
+    color: hsl(223, 47%, 23%);
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+  }
+
+  .mrb-30 {
+    margin-bottom: 30px;
+  }
+
+  .mrb-20 {
+    margin-bottom: 20px;
+  }
+
+  .mrb-10 {
+    margin-bottom: 10px;
+  }
+
+  .fw-900 {
+    font-weight: 900;
+  }
+
+  .fw-700 {
+    font-weight: 700;
+  }
+
+  .card {
+    max-height: 700px;
+    width: 90%;
+    max-width: 450px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img-container img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-contant {
+    padding: 40px;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: hsl(225, 100%, 98%);
+    gap: 20px;
+    padding: 0 15px;
+    border-radius: 10px;
+  }
+
+  .item-change {
+    margin-left: auto;
+  }
+
+  .pay-btn {
+    width: 100%;
+    background-color: hsl(225, 100%, 47%);
+    border: none;
+    border-radius: 10px;
+    height: 55px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+  }
